@@ -1,38 +1,13 @@
-# {{PROJECT_NAME}}
+# Streamlit Dashboard
 
-<!-- template:start -->
 
-> This repository was created from the `python-starter` template. Do this one-time setup before anything else:
->
-> 1. Install the dependencies and fill in the placeholders. The script reads your `git remote` to guess the slug and asks for the rest:
->    ```sh
->    uv sync
->    uv run python scripts/init.py
->    ```
-> 2. Install the git hooks:
->    ```sh
->    uv run lefthook install
->    ```
-> 3. Sync the renamed package, review the diff, then commit and push it, for example:
->    ```sh
->    uv sync
->    git add -A
->    git commit -m "chore: fill in the template placeholders"
->    git push
->    ```
-> 4. Do the GitHub steps under [Repository settings](#repository-settings).
->
-> `init.py` rewrites the placeholders (`{{PROJECT_NAME}}`, `{{REPO_SLUG}}`, `{{DESCRIPTION}}`, `{{AUTHOR}}`, `{{OWNER}}`) across the repo, renames the `python_starter` package, strips this banner and deletes itself.
-
-<!-- template:end -->
-
-[![Verify](https://github.com/{{REPO_SLUG}}/actions/workflows/verify.yml/badge.svg)](https://github.com/{{REPO_SLUG}}/actions/workflows/verify.yml)
-[![CodeQL](https://github.com/{{REPO_SLUG}}/actions/workflows/scan-codeql.yml/badge.svg)](https://github.com/{{REPO_SLUG}}/actions/workflows/scan-codeql.yml)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{{REPO_SLUG}}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/{{REPO_SLUG}})
+[![Verify](https://github.com/streamlit-dashboard/actions/workflows/verify.yml/badge.svg)](https://github.com/streamlit-dashboard/actions/workflows/verify.yml)
+[![CodeQL](https://github.com/streamlit-dashboard/actions/workflows/scan-codeql.yml/badge.svg)](https://github.com/streamlit-dashboard/actions/workflows/scan-codeql.yml)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/streamlit-dashboard/badge)](https://securityscorecards.dev/viewer/?uri=github.com/streamlit-dashboard)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
-[![Release](https://img.shields.io/github/v/release/{{REPO_SLUG}})](https://github.com/{{REPO_SLUG}}/releases)
+[![Release](https://img.shields.io/github/v/release/streamlit-dashboard)](https://github.com/streamlit-dashboard/releases)
 
-# {{DESCRIPTION}}
+# Dashboard for AKTIN DWHs
 
 ## Stack
 
@@ -133,7 +108,7 @@ To release without attestations, add the input `attest: false` to the job `build
 ## Project structure
 
 ```
-src/python_starter/  the package (renamed by init.py)
+src/streamlit_dashboard/  the package (renamed by init.py)
 tests/               pytest suite
 .github/workflows/   verify, CodeQL, dependency review, Scorecard, release, described in the README there
 SECURITY.md          security policy

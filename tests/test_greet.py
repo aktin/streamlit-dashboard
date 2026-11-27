@@ -1,4 +1,4 @@
-from python_starter import greet
+from streamlit_dashboard import greet
 
 
 def test_greet() -> None:
